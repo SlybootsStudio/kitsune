@@ -6,12 +6,17 @@ const routes = [
     path: "/",
     name: "Main",
     component: Main
+  },
+  {
+    path: "/main",
+    name: "Main2",
+    component: Main
   }
 ];
 
 const router = createRouter({
   mode: "history",
-  linkExactActiveClass: "fw-bold",
+  linkExactActiveClass: "active",
   history: createWebHistory(process.env.BASE_URL),
   routes
 });

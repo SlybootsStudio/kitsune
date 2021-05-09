@@ -1,15 +1,14 @@
 <template>
-  <div class="navbar navbar-dark bg-dark">
+  <div class="navbar navbar-dark bg-dark m-0 p-0">
     <div class="container-fluid">
       <div class="navbar-brand d-flex">
-        <!-- Logo <img
-          src=""
+        <img
+          src="@/assets/kitsune.svg"
           alt=""
           height="30"
-          class="d-inline-flex align-top me-3 pe-3 border-end"
-        /> -->
-        <div class="title me-3 fw-bold">KITSUNE</div>
-        <div class="subtitle">Home</div>
+          class="d-inline-flex align-top"
+        />
+        <div class="title me-3 fw-bold text-primary">KITSUNE</div>
       </div>
     </div>
   </div>
