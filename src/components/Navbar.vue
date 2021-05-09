@@ -80,10 +80,13 @@
               >
             </div>
             <div class="btn-group me-2" role="group" aria-label="First group">
+              <router-link class="btn btn-secondary" :to="{ name: 'Log' }"
+                >Log</router-link
+              >
               <router-link class="btn btn-secondary" :to="{ name: 'Support' }"
                 >Support</router-link
               >
-              <router-link class="btn btn-secondary" :to="{ name: 'My Data' }"
+              <router-link class="btn btn-secondary" :to="{ name: 'MyData' }"
                 >My Data</router-link
               >
             </div>

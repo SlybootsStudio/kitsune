@@ -11,6 +11,7 @@ import Regions from "../views/Regions.vue";
 import Quests from "../views/Quests.vue";
 import Honors from "../views/Honors.vue";
 
+import Log from "../views/Log.vue";
 import Support from "../views/Support.vue";
 import MyData from "../views/MyData.vue";
 
@@ -59,6 +60,11 @@ const routes = [
     path: "/honors",
     name: "Honors",
     component: Honors
+  },
+  {
+    path: "/log",
+    name: "Log",
+    component: Log
   },
   {
     path: "/support",
