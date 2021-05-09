@@ -10,10 +10,10 @@
 </template>
 
 <script>
-import SidebarBox from "@/components/SidebarBox";
-import ActionSummary from "@/components/ActionSummary";
-import EffectsSummary from "@/components/EffectsSummary";
-import ActionLog from "@/components/ActionLog";
+import SidebarBox from "@/components/sidebar/SidebarBox";
+import ActionSummary from "@/components/sidebar/ActionSummary";
+import EffectsSummary from "@/components/sidebar/EffectsSummary";
+import ActionLog from "@/components/sidebar/ActionLog";
 export default {
   name: "Sidebar",
   components: { SidebarBox, ActionSummary, EffectsSummary, ActionLog },
