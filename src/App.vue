@@ -1,6 +1,6 @@
 <template>
   <Header />
-  <Navbar class="mb-5" />
+  <Navbar class="mb-3" />
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-8">
@@ -34,6 +34,5 @@ export default {
 
 <style scoped>
 div {
-  border: 1px solid red;
 }
 </style>

@@ -1,10 +1,15 @@
 <template>
-  <div>sidebar</div>
+  <div>
+    <SidebarBox title="Action Summary"><ActionSummary /></SidebarBox>
+  </div>
 </template>
 
 <script>
+import SidebarBox from "@/components/SidebarBox";
+import ActionSummary from "@/components/ActionSummary";
 export default {
   name: "Sidebar",
+  components: { SidebarBox, ActionSummary },
   props: {}
 };
 </script>
