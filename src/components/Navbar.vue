@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="navbar navbar-expand-lg navbar-dark text-light border-top border-bottom border-secondary"
+    class="navbar navbar-expand-sm navbar-dark text-light border-top border-bottom border-secondary"
   >
     <div class="container-fluid">
       <button
@@ -16,73 +16,81 @@
       </button>
       <div class="collapse navbar-collapse" id="navbar">
         <div class="navbar-nav">
-          <router-link class="btn btn-link" :to="{ name: 'Main2' }"
-            >Home</router-link
-          >
-
-          <router-link class="btn btn-link" :to="{ name: 'Main2' }"
-            >Skills</router-link
-          >
-          <router-link class="btn btn-link" :to="{ name: 'Main2' }"
-            >Treasury</router-link
-          >
-          <router-link class="btn btn-link" :to="{ name: 'Main2' }"
-            >Temple</router-link
-          >
-
-          <router-link class="btn btn-link" :to="{ name: 'Main2' }"
-            >Adventure</router-link
-          >
-
-          <router-link class="btn btn-link" :to="{ name: 'Main2' }"
-            >Regions</router-link
-          >
-
-          <router-link class="btn btn-link" :to="{ name: 'Main2' }"
-            >Quests
-            <span class="badge bg-success text-white">1</span></router-link
-          >
-          <router-link class="btn btn-link" :to="{ name: 'Main2' }"
-            >Dungeons</router-link
-          >
-          <router-link class="btn btn-link" :to="{ name: 'Main2' }"
-            >Honors</router-link
-          >
-          <!--
-          <div class="btn-group me-2" role="group" aria-label="First group">
-            <router-link class="btn btn-secondary" :to="{ name: 'Main2' }"
+          <div class="navbar-sm d-sm-block d-md-none">
+            <router-link class="btn btn-link" :to="{ name: 'Main' }"
               >Home</router-link
             >
-          </div>
 
-          <div class="btn-group me-2" role="group" aria-label="First group">
-            <router-link class="btn btn-secondary" :to="{ name: 'Main' }"
-              >Character</router-link
+            <router-link class="btn btn-link" :to="{ name: 'Skills' }"
+              >Skills</router-link
             >
-            <router-link class="btn btn-secondary" :to="{ name: 'Main2' }"
+            <router-link class="btn btn-link" :to="{ name: 'Treasury' }"
               >Treasury</router-link
             >
-            <router-link class="btn btn-secondary" :to="{ name: 'Main2' }"
+            <router-link class="btn btn-link" :to="{ name: 'Temple' }"
               >Temple</router-link
             >
-          </div>
-          <div class="btn-group me-2" role="group" aria-label="First group">
-            <router-link class="btn btn-secondary" :to="{ name: 'Main' }"
+
+            <router-link class="btn btn-link" :to="{ name: 'Adventure' }"
               >Adventure</router-link
             >
-            <router-link class="btn btn-secondary" :to="{ name: 'Main2' }"
+
+            <router-link class="btn btn-link" :to="{ name: 'Regions' }"
               >Regions</router-link
             >
-          </div>
-          <div class="btn-group me-2" role="group" aria-label="First group">
-            <router-link class="btn btn-secondary" :to="{ name: 'Main' }"
-              >Quests</router-link
+            <!--
+            <router-link class="btn btn-link" :to="{ name: 'Quests' }"
+              >Quests
+            </router-link>
+            -->
+            <!--
+            <router-link class="btn btn-link" :to="{ name: 'Dungeons' }"
+              >Dungeons</router-link
             >
-            <router-link class="btn btn-secondary" :to="{ name: 'Main2' }"
+            -->
+            <!--
+            <router-link class="btn btn-link" :to="{ name: 'Honors' }"
               >Honors</router-link
             >
+            -->
           </div>
-          -->
+
+          <div class="navbar-md d-sm-none d-none d-md-block">
+            <router-link class="btn btn-secondary me-2" :to="{ name: 'Main' }"
+              >Home</router-link
+            >
+
+            <div class="btn-group me-2" role="group" aria-label="First group">
+              <router-link class="btn btn-secondary" :to="{ name: 'Skills' }"
+                >Skills</router-link
+              >
+              <router-link class="btn btn-secondary" :to="{ name: 'Treasury' }"
+                >Treasury</router-link
+              >
+              <router-link class="btn btn-secondary" :to="{ name: 'Temple' }"
+                >Temple</router-link
+              >
+            </div>
+            <div class="btn-group me-2" role="group" aria-label="First group">
+              <router-link class="btn btn-secondary" :to="{ name: 'Adventure' }"
+                >Adventure</router-link
+              >
+              <router-link class="btn btn-secondary" :to="{ name: 'Regions' }"
+                >Regions</router-link
+              >
+            </div>
+            <!--
+            <div class="btn-group me-2" role="group" aria-label="First group">
+              <router-link class="btn btn-secondary" :to="{ name: 'Main' }"
+                >Quests</router-link
+              >
+              <router-link class="btn btn-secondary" :to="{ name: 'Main' }"
+                >Honors</router-link
+              >
+            </div>
+
+            -->
+          </div>
         </div>
       </div>
     </div>
