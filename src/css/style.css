@@ -2,6 +2,9 @@
 	font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #ddd;
   font-weight:400;
+}
+
+* {
+  color: #ddd;
 }
