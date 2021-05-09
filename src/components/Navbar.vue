@@ -79,6 +79,14 @@
                 >Regions</router-link
               >
             </div>
+            <div class="btn-group me-2" role="group" aria-label="First group">
+              <router-link class="btn btn-secondary" :to="{ name: 'Support' }"
+                >Support</router-link
+              >
+              <router-link class="btn btn-secondary" :to="{ name: 'My Data' }"
+                >My Data</router-link
+              >
+            </div>
             <!--
             <div class="btn-group me-2" role="group" aria-label="First group">
               <router-link class="btn btn-secondary" :to="{ name: 'Main' }"
