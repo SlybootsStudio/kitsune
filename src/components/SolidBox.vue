@@ -4,7 +4,7 @@
       {{ title }}
     </div>
 
-    <div class="border rounded border-secondary p-3 text-small text-muted">
+    <div class="bg-light rounded p-3 text-small">
       <slot></slot>
     </div>
   </div>
