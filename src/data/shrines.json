@@ -1,0 +1,34 @@
+[
+  {
+    "id" : "Forest",
+    "label" : "Essence",
+    "category" : "currency"
+  },
+  {
+    "id" : "devotion",
+    "label" : "Devotion",
+    "category" : "currency"
+  },
+  {
+    "id" : "experience",
+    "label" : "Experience",
+    "category" : "currency"
+  },
+  {
+    "id" : "strength",
+    "label" : "Strength",
+    "category" : "attribute"
+  },
+  {
+    "id" : "dexterity",
+    "label" : "Dexterity",
+    "skillId" : "climbing",
+    "category" : "skillExp"
+  }, 
+  {
+    "id" : "climbingExperience",
+    "label" : "Climbing Experience",
+    "skillId" : "climbing",
+    "category" : "skillExp"
+  }
+]
