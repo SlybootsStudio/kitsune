@@ -8,13 +8,13 @@
   {
     "id" : "healing",
     "label" : "Healing",
-    "levelScale" : 2,
+    "levelScale" : 3,
     "preReq" : []
   },
   {
     "id" : "tracking",
     "label" : "Tracking",
-    "levelScale" : 2,
+    "levelScale" : 5,
     "preReq" : []
   }  
 ]

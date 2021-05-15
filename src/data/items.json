@@ -1,20 +1,34 @@
 [
   {
-    "id" : "climbing",
-    "label" : "Climbing",
-    "levelScale" : 2,
-    "preReq" : []
+    "id" : "essence",
+    "label" : "Essence",
+    "category" : "currency"
   },
   {
-    "id" : "healing",
-    "label" : "Healing",
-    "levelScale" : 2,
-    "preReq" : []
+    "id" : "devotion",
+    "label" : "Devotion",
+    "category" : "currency"
   },
   {
-    "id" : "tracking",
-    "label" : "Tracking",
-    "levelScale" : 2,
-    "preReq" : []
-  }  
+    "id" : "experience",
+    "label" : "Experience",
+    "category" : "currency"
+  },
+  {
+    "id" : "strength",
+    "label" : "Strength",
+    "category" : "attribute"
+  },
+  {
+    "id" : "dexterity",
+    "label" : "Dexterity",
+    "skillId" : "climbing",
+    "category" : "skillExp"
+  }, 
+  {
+    "id" : "climbingExperience",
+    "label" : "Climbing Experience",
+    "skillId" : "climbing",
+    "category" : "skillExp"
+  }
 ]

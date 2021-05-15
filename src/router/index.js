@@ -80,7 +80,7 @@ const routes = [
 
 const router = createRouter({
   mode: "history",
-  linkExactActiveClass: "active fw-bold",
+  linkExactActiveClass: "active",
   history: createWebHistory(process.env.BASE_URL),
   routes
 });
